@@ -1,5 +1,6 @@
 function orderPizza(type,name){
-    console.log(`Pizza with ${type} and name of ${name} is ready`)
+    console.log('wait')
+     setTimeout(()=>{console.log(`Pizza with ${type} and name of ${name} is ready`)},3000)
 }
 function second(type,name,callback){
     callback(type,name)
