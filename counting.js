@@ -1,5 +1,5 @@
 function counting(){
-    let count = 0
+    let count = 1
     let interval = setInterval(()=>{
         if(count<=5){
             console.log(count++)
