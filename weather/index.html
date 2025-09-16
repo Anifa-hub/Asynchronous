@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- search bar -->
+        <div id="search">
+            <input type="text" id="searchinput" placeholder="search" class="ml-12 mt-12">
+            <button id="btn" class="bg-green-400 p-2 rounded-2xl"><i class="fa fa-search " aria-hidden="true"></i>click</button>
+        </div>
+
+        <!-- date & city -->
+            <div id="info">
+                <p id="date"></p>
+                <h4 id="city"></h4>
+            </div>
+
+        <!-- weather image -->
+         <div id="image"></div>
+
+         <!-- Description -->
+            <div id="description">
+
+            </div>
+        
+        <!-- temp -->
+         <div id="temp"></div>
+
+        <!-- extra info -->
+         <div id="extra">
+            <div class="col">
+                <div class="inf">
+                    <h5>Highs</h5>
+                    <p id="max"></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inf">
+                    <h5>lows</h5>
+                    <p id="min"></p>
+                </div>
+            </div>
+         </div>
+         
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
